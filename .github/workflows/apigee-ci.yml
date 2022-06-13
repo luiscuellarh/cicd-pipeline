@@ -5,7 +5,7 @@ on: push
   
 env:
   APIGEE_ORG: bap-emea-apigee-4
-  APIGEE_CONFIG_ENV: default-dev
+  APIGEE_CONFIG_ENV: config-env
   TEST_HOST: https://35-241-29-146.nip.io
 
 jobs:
