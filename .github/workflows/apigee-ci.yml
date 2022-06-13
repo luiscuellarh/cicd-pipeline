@@ -4,9 +4,9 @@ name: Apigee Configurable Proxy CI
 on: push
   
 env:
-  APIGEE_ORG: bap-emea-apigee-5
-  APIGEE_CONFIG_ENV: configurable-dev
-  TEST_HOST: 34-117-38-184.nip.io
+  APIGEE_ORG: bap-emea-apigee-4
+  APIGEE_CONFIG_ENV: default-dev
+  TEST_HOST: https://35-241-29-146.nip.io
 
 jobs:
   Apigee-Deploy:
