@@ -1,7 +1,7 @@
 [
     {
         "name": "products",
-        "host": "https://apigeek.dev/apigeehipster/",
+        "host": "apigeek.dev/apigeehipster",
         "port": 443,
         "isEnabled" : true,
         "sSLInfo": {
