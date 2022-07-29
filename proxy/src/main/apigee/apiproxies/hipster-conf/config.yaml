@@ -1,10 +1,16 @@
-# config.yaml
+# proxy.yaml
 
-basepath: "/cicd/helloworld"
+basepath: "/v1/hipster"
 operations:
-- id: get-user
+- id: products
   http_match:
-  - path_template: "/user"
+  - path_template: "/apigeehipster/products"
     method: GET
+- id: product-detail
+  http_match:
+  - path_template: "/apigeehipster/products/*"
+    method: GET
+
 target:
-  uri: "https://mocktarget.apigee.net"
+  target_server_id: products
+
