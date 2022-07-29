@@ -1,7 +1,7 @@
 [
     {
         "name": "products",
-        "host": "apigeek.dev",
+        "host": "apigeek.de",
         "port": 443,
         "isEnabled" : true,
         "sSLInfo": {
