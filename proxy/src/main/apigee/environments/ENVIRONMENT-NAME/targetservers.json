@@ -1,7 +1,7 @@
 [
     {
         "name": "products",
-        "host": "apigeek.dev",
+        "host": "cloud.hipster.s.apigee.com",
         "port": 443,
         "isEnabled" : true,
         "sSLInfo": {
