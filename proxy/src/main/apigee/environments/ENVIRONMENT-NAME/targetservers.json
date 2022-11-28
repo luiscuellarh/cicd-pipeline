@@ -1,7 +1,7 @@
 [
     {
         "name": "products",
-        "host": "apigeek.dev",
+        "host": "https://cloud.hipster.s.dynolab.io/",
         "port": 443,
         "isEnabled" : true,
         "sSLInfo": {
