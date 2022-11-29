@@ -1,6 +1,6 @@
 # proxy.yaml
 
-basepath: "/v2/hipster"
+basepath: "/v1/hipster"
 operations:
 - id: products
   http_match:
