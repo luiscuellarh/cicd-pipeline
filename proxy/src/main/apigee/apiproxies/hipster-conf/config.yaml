@@ -4,11 +4,11 @@ basepath: "/v2/hipster"
 operations:
 - id: products
   http_match:
-  - path_template: "/apigeehipster/products"
+  - path_template: "/products"
     method: GET
 - id: product-detail
   http_match:
-  - path_template: "/apigeehipster/products/*"
+  - path_template: "/products/*"
     method: GET
 
 target:
