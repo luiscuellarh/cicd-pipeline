@@ -1,7 +1,7 @@
 [
     {
         "name": "products",
-        "host": "cloud.hipster.s.dynolab.io",
+        "host": "httpbin.org",
         "port": 443,
         "isEnabled" : true,
         "sSLInfo": {
