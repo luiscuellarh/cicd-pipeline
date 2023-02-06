@@ -6,7 +6,7 @@ operations:
   http_match:
   - path_template: "/echo"
     method: GET
-- id: get
+- id: get-method
   http_match:
   - path_template: "/get/"
     method: GET
