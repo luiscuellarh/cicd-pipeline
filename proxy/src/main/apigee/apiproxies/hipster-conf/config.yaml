@@ -1,14 +1,14 @@
 # proxy.yaml
 
-basepath: "/v2/hipster"
+basepath: "/v1/hipster"
 operations:
-- id: products
+- id: echo
   http_match:
-  - path_template: "/products"
+  - path_template: "/echo"
     method: GET
-- id: product-detail
+- id: get
   http_match:
-  - path_template: "/products/*"
+  - path_template: "/get/"
     method: GET
 
 target:
