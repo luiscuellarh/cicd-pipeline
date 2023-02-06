@@ -1,7 +1,7 @@
 [
     {
         "name": "products",
-        "host": "mocktarget.apigee.net",
+        "host": "cloud.hipster.s.dynolab.io",
         "port": 443,
         "isEnabled" : true,
         "sSLInfo": {
